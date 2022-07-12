@@ -317,7 +317,7 @@ public class ExportLua
         Encoding en = new UTF8Encoding(false);
         byte[] bytes = en.GetBytes(strValue);
         
-        byte key = 0xA7;
+        byte key = 0x59;
         //Console.WriteLine("Binary key is " + Convert.ToString(key, 2).PadLeft(8, '0'));
         for (int i = 0; i < bytes.Length; i++)
         {
